@@ -1,0 +1,12 @@
+require 'spec_helper'
+
+# Describe 'form' do
+
+# it 'should have fields for mobile number and message' do
+#   visit 'xxx'
+#   expepect(page).to have_css
+# end
+
+# it 'should send an sms to the user after sebding the form' do
+
+# end
