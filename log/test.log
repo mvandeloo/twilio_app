@@ -50,3 +50,286 @@ Processing by MessagesController#new as HTML
   Rendered messages/new.html.erb within layouts/application (1.0ms)
 Completed 200 OK in 35ms (Views: 15.3ms | ActiveRecord: 0.0ms)
   [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 11:52:52 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 11:53:15 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 11:53:15 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:08:38 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (17.8ms)
+Completed 500 Internal Server Error in 41ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:08:38 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 1ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:12:18 +0100
+Processing by MessagesController#new as HTML
+Completed 500 Internal Server Error in 19ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:12:18 +0100
+Processing by MessagesController#new as HTML
+Completed 500 Internal Server Error in 4ms
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateMessages (20131025100717)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (53.3ms)[0m  DROP TABLE "messages"
+  [1m[36mSQL (1.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131025100717'[0m
+  [1m[35m (2.7ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateMessage (20131025100717)
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateMessages (20131025100717)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (10.3ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "message" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131025100717"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:28:45 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (74.1ms)
+Completed 200 OK in 409ms (Views: 387.6ms | ActiveRecord: 2.8ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:28:46 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:29:37 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (40.3ms)
+Completed 500 Internal Server Error in 70ms
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:29:37 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 4ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddTelephoneToMessages (20131025113124)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.8ms)[0m  [1mALTER TABLE "messages" ADD COLUMN "telephone" character varying(255)[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131025113124"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:31:54 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 97ms (Views: 76.7ms | ActiveRecord: 2.7ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:31:54 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:33:57 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 98ms (Views: 75.7ms | ActiveRecord: 2.8ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:33:57 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+Started POST "/messages" for 127.0.0.1 at 2013-10-25 12:33:57 +0100
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:36:16 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 89ms (Views: 68.8ms | ActiveRecord: 2.6ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:36:16 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+Started POST "/messages" for 127.0.0.1 at 2013-10-25 12:36:16 +0100
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "message"=>{"message"=>"Hello Hello Hello", "telephone"=>"+491722577800"}, "commit"=>"Submit form"}
+  [1m[36m (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (72.1ms)[0m  INSERT INTO "messages" ("created_at", "message", "telephone", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Fri, 25 Oct 2013 11:36:16 UTC +00:00], ["message", "Hello Hello Hello"], ["telephone", "+491722577800"], ["updated_at", Fri, 25 Oct 2013 11:36:16 UTC +00:00]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/messages/1
+Completed 302 Found in 77ms (ActiveRecord: 73.0ms)
+Started GET "/messages/1" for 127.0.0.1 at 2013-10-25 12:36:16 +0100
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:37:08 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 90ms (Views: 67.5ms | ActiveRecord: 3.1ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:37:08 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+Started POST "/messages" for 127.0.0.1 at 2013-10-25 12:37:08 +0100
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "message"=>{"message"=>"Hello Hello Hello", "telephone"=>"+491722577800"}, "commit"=>"Submit form"}
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.1ms)[0m  INSERT INTO "messages" ("created_at", "message", "telephone", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Fri, 25 Oct 2013 11:37:08 UTC +00:00], ["message", "Hello Hello Hello"], ["telephone", "+491722577800"], ["updated_at", Fri, 25 Oct 2013 11:37:08 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/messages/1
+Completed 302 Found in 8ms (ActiveRecord: 4.9ms)
+Started GET "/messages/1" for 127.0.0.1 at 2013-10-25 12:37:08 +0100
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMessage Load (1.1ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 6ms
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:37:58 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 91ms (Views: 66.0ms | ActiveRecord: 2.9ms)
+Started POST "/messages" for 127.0.0.1 at 2013-10-25 12:37:58 +0100
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "message"=>{"message"=>"Hello Hello Hello", "telephone"=>"+491722577800"}, "commit"=>"Submit form"}
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.2ms)[0m  INSERT INTO "messages" ("created_at", "message", "telephone", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Fri, 25 Oct 2013 11:37:58 UTC +00:00], ["message", "Hello Hello Hello"], ["telephone", "+491722577800"], ["updated_at", Fri, 25 Oct 2013 11:37:58 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/messages/1
+Completed 302 Found in 8ms (ActiveRecord: 4.9ms)
+Started GET "/messages/1" for 127.0.0.1 at 2013-10-25 12:37:58 +0100
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMessage Load (1.1ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1  [["id", "1"]]
+  Rendered messages/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 1.1ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:37:58 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:38:30 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 97ms (Views: 75.8ms | ActiveRecord: 3.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:38:30 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+Started POST "/messages" for 127.0.0.1 at 2013-10-25 12:38:30 +0100
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "message"=>{"message"=>"Hello Hello Hello", "telephone"=>"+491722577800"}, "commit"=>"Submit form"}
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.6ms)[0m  INSERT INTO "messages" ("created_at", "message", "telephone", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Fri, 25 Oct 2013 11:38:30 UTC +00:00], ["message", "Hello Hello Hello"], ["telephone", "+491722577800"], ["updated_at", Fri, 25 Oct 2013 11:38:30 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/messages/1
+Completed 302 Found in 9ms (ActiveRecord: 5.4ms)
+Started GET "/messages/1" for 127.0.0.1 at 2013-10-25 12:38:30 +0100
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMessage Load (1.0ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1  [["id", "1"]]
+  Rendered messages/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:39:09 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 97ms (Views: 73.0ms | ActiveRecord: 3.3ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:39:09 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+Started POST "/messages" for 127.0.0.1 at 2013-10-25 12:39:09 +0100
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "message"=>{"message"=>"Hello Hello Hello", "telephone"=>"+491722577800"}, "commit"=>"Submit form"}
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.8ms)[0m  INSERT INTO "messages" ("created_at", "message", "telephone", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Fri, 25 Oct 2013 11:39:09 UTC +00:00], ["message", "Hello Hello Hello"], ["telephone", "+491722577800"], ["updated_at", Fri, 25 Oct 2013 11:39:09 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/messages/1
+Completed 302 Found in 9ms (ActiveRecord: 5.6ms)
+Started GET "/messages/1" for 127.0.0.1 at 2013-10-25 12:39:09 +0100
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMessage Load (1.0ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1  [["id", "1"]]
+  Rendered messages/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:39:56 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 99ms (Views: 75.5ms | ActiveRecord: 3.2ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+Started GET "/messages/new" for 127.0.0.1 at 2013-10-25 12:39:57 +0100
+Processing by MessagesController#new as HTML
+  Rendered messages/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+Started POST "/messages" for 127.0.0.1 at 2013-10-25 12:39:57 +0100
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "message"=>{"message"=>"Hello Hello Hello", "telephone"=>"+491722577800"}, "commit"=>"Submit form"}
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (5.1ms)[0m  INSERT INTO "messages" ("created_at", "message", "telephone", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Fri, 25 Oct 2013 11:39:57 UTC +00:00], ["message", "Hello Hello Hello"], ["telephone", "+491722577800"], ["updated_at", Fri, 25 Oct 2013 11:39:57 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/messages/1
+Completed 302 Found in 10ms (ActiveRecord: 5.9ms)
+Started GET "/messages/1" for 127.0.0.1 at 2013-10-25 12:39:57 +0100
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMessage Load (1.0ms)[0m  SELECT "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1  [["id", "1"]]
+  Rendered messages/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m

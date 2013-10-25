@@ -1,1 +1,16 @@
 <h1> Form </h1>
+
+<%= form_for @message do |f| %>
+
+  <%= f.label :message %>
+  <%= f.text_field :message, placeholder: 'Please enter your message' %>
+  <%= f.label :telephone %>
+  <%= f.text_field :telephone, placeholder: 'Please enter your telephone number' %>
+  <%= f.submit 'Submit form'%>
+
+
+<% if flash[:error] -%>
+ 	<%= flash[:error] %>
+<% end -%>
+
+<% end %>
